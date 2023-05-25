@@ -1,13 +1,9 @@
-.MainDash{
-    /* padding-top: 1rem; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
 
 h1{
     text-align: center;
 }
+
+
 
 
 @media screen and (max-width: 1200px) {

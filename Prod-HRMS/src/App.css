@@ -9,6 +9,8 @@
     --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
     --activeItem:	#CBC3E3;
+    
+    overflow-y: hidden;
   }
   
   .App {
@@ -36,8 +38,8 @@
     background: var(--glass);
     /* border-radius: 2rem; */
     gap: 16px;
-    grid-template-columns: 11rem auto 1rem ;
-    overflow: hidden;
+    grid-template-columns: 15rem auto 0.5rem;
+    overflow: scroll;
   }
   
   @media screen and (max-width: 1200px) {
